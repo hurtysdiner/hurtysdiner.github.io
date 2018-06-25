@@ -78,16 +78,6 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	/*
-	#header {
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-		#header br{
-			display: none;
-		}
-	*/
-
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
@@ -125,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #ee3a3d;
+		color: #4eb980;
 		text-decoration: none;
 	}
 
@@ -198,24 +188,21 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 50%;
+		width: 51em;
 	}
 
 		.container.medium {
-			width: 75%;
-			height: 100%;
+			width: 38.25em;
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 50%;
-				height: 100%;
+				width: 48em;
 			}
 
 				.container.medium {
-					width: 50%;
-					height: 100%;
+					width: 36em;
 				}
 
 		}
@@ -2120,7 +2107,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #ee3a3d;
+			border-color: #4eb980;
 		}
 
 	input[type="text"],
@@ -2670,8 +2657,8 @@ input, select, textarea {
 			}
 
 				.feature.left .image img {
-					max-width:100%;
-					max-height:100%;
+					right: 0;
+					top: 0;
 				}
 
 			.feature.left .content {
@@ -2679,7 +2666,7 @@ input, select, textarea {
 			}
 
 		.feature.right {
-			text-align: left;
+			text-align: right;
 		}
 
 			.feature.right .image {
@@ -2687,8 +2674,8 @@ input, select, textarea {
 			}
 
 				.feature.right .image img {
-					max-width:100%;
-					max-height:100%;
+					left: 0;
+					top: 0;
 				}
 
 			.feature.right .content {
@@ -2703,7 +2690,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/merch_header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/menu_header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2740,7 +2727,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color:#ee3a3d;
+				color: #4eb980;
 			}
 
 		#header strong, #header b {
@@ -2760,7 +2747,7 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #ee3a3d;
+			background: #4eb980;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
