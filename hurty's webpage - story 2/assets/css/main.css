@@ -2753,11 +2753,11 @@ input, select, textarea {
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 8em;
+			height: 2.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 8em;
+			width: 2.35em;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
@@ -3161,12 +3161,7 @@ input, select, textarea {
 				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
-				}
-
-				#header img {
-				width: 200px;
-				height: 200px;
-				}
+			}
 
 				#header:before {
 					height: calc(100% - 20px);
@@ -3219,7 +3214,6 @@ input, select, textarea {
 
 		/* Section/Article */
 
-
 			header.major {
 				padding-left: 1em;
 				padding-right: 1em;
@@ -3229,7 +3223,6 @@ input, select, textarea {
 				padding-left: 1em;
 				padding-right: 1em;
 			}
-
 
 		/* Button */
 

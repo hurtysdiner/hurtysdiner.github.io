@@ -2690,7 +2690,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/story_header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -3173,6 +3173,11 @@ input, select, textarea {
 
 				#header .logo {
 					font-size: 1.5em;
+				}
+
+				#header img {
+				width: 200px;
+				height: 200px;
 				}
 
 				#header h1 {
